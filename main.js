@@ -7,4 +7,5 @@ let mainWindow = null;
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow();
+  mainWindow.close();
 });

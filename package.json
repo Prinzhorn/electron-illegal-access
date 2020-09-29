@@ -10,6 +10,6 @@
   "author": "Alexander Prinzhorn",
   "license": "MIT",
   "dependencies": {
-    "electron": "^10.1.2"
+    "electron": "^10.1.3"
   }
 }
