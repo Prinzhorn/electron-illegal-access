@@ -9,3 +9,16 @@ app.on('ready', () => {
   mainWindow = new BrowserWindow();
   mainWindow.close();
 });
+
+// This doesn't change anything.
+
+// let cleanedUp = false;
+
+// app.on('before-quit', async (e) => {
+//   if (!cleanedUp) {
+//     e.preventDefault();
+//     await worker.terminate();
+//     cleanedUp = true;
+//     app.quit();
+//   }
+// });
